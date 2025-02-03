@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Modeling</title>
+</head>
+<body>
+    <h1>Weather Modeling</h1>
+    <form id="quadratic-form">
+        <label for="a">Coefficient a:</label>
+        <input type="number" id="a" name="a"><br><br>
+        <label for="b">Coefficient b:</label>
+        <input type="number" id="b" name="b"><br><br>
+        <label for="c">Coefficient c:</label>
+        <input type="number" id="c" name="c"><br><br>
+        <label for="t-range">Time Range (e.g., 0,10 in minutes):</label>
+        <input type="text" id="t-range" name="t-range"><br><br>
+        <button type="button" onclick="generateGraph()">Generate Graph</button>
+    </form>
+    <p id="output"></p>
+    <canvas id="graph" width="600" height="400" style="border:1px solid #000;"></canvas>
+
+    <script>
+        async function generateGraph() {
+            const a = document.getElementById('a').value;
+            const b = document.getElementById('b').value;
+            const c = document.getElementById('c').value;
+            const tRange = document.getElementById('t-range').value.split(',').map(Number);
+
+            if (!a || !b || !c || tRange.length !== 2 || isNaN(tRange[0]) || isNaN(tRange[1])) {
+                alert("Please enter valid numbers.");
+                return;
+            }
+
+            try {
+                // Correctly format the data for POST request
+                const formData = new URLSearchParams();
+                formData.append("a", a);
+                formData.append("b", b);
+                formData.append("c", c);
+                formData.append("t", tRange[1]);
+
+                const response = await fetch("http://localhost:4567/calculate", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Server error: ${response.status}`);
+                }
+
+                const data = await response.json();
+                document.getElementById("output").innerText = `Temperature: ${data.temperature}°C`;
+
+                drawGraph(parseFloat(a), parseFloat(b), parseFloat(c), tRange);
+            } catch (error) {
+                console.error("Fetch error:", error);
+                alert("Failed to fetch data from the server.");
+            }
+        }
+
+        function drawGraph(a, b, c, tRange) {
+            const canvas = document.getElementById('graph');
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const temperatures = [];
+            const timeSteps = [];
+
+            for (let t = tRange[0]; t <= tRange[1]; t++) {
+                const temperature = a * t * t + b * t + c;
+                temperatures.push(temperature);
+                timeSteps.push(t);
+            }
+
+            const minTemp = Math.min(...temperatures);
+            const maxTemp = Math.max(...temperatures);
+            const tempScale = 300 / (maxTemp - minTemp || 1);
+
+            ctx.beginPath();
+            ctx.strokeStyle = 'blue';
+            ctx.moveTo(50, 350 - (temperatures[0] - minTemp) * tempScale);
+
+            timeSteps.forEach((t, i) => {
+                ctx.lineTo(50 + t * 30, 350 - (temperatures[i] - minTemp) * tempScale);
+            });
+
+            ctx.stroke();
+
+            // Draw axes
+            ctx.beginPath();
+            ctx.strokeStyle = 'black';
+            ctx.moveTo(50, 0);
+            ctx.lineTo(50, 400);
+            ctx.moveTo(0, 350);
+            ctx.lineTo(600, 350);
+            ctx.stroke();
+
+            ctx.font = '16px Arial';
+            ctx.fillText('Time (minutes)', 300, 380);
+            ctx.save();
+            ctx.translate(10, 200);
+            ctx.rotate(-Math.PI / 2);
+            ctx.fillText('Temperature (°C)', 0, 0);
+            ctx.restore();
+        }
+    </script>
+</body>
+</html>

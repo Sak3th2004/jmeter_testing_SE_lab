@@ -1,0 +1,662 @@
+2025-02-03 11:44:46,607 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-02-03 11:44:46,679 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2025-02-03 11:44:46,680 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2025-02-03 11:44:46,696 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-02-03 11:44:46,696 INFO o.a.j.JMeter: Version 5.6.3
+2025-02-03 11:44:46,696 INFO o.a.j.JMeter: java.version=21.0.6
+2025-02-03 11:44:46,696 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-02-03 11:44:46,697 INFO o.a.j.JMeter: os.name=Mac OS X
+2025-02-03 11:44:46,697 INFO o.a.j.JMeter: os.arch=aarch64
+2025-02-03 11:44:46,697 INFO o.a.j.JMeter: os.version=15.0
+2025-02-03 11:44:46,697 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-02-03 11:44:46,697 INFO o.a.j.JMeter: java.awt.headless=null
+2025-02-03 11:44:46,698 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-02-03 11:44:46,698 INFO o.a.j.JMeter: Available Processors =8
+2025-02-03 11:44:46,757 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-02-03 11:44:46,757 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-02-03 11:44:46,758 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2025-02-03 11:44:46,758 INFO o.a.j.JMeter: user.dir  =/Users/saisakethram/weather-modeling/backend
+2025-02-03 11:44:46,758 INFO o.a.j.JMeter: PWD       =/Users/saisakethram/weather-modeling/backend
+2025-02-03 11:44:46,760 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: sais-MacBook-Air-4.local FullName: localhost
+2025-02-03 11:44:46,781 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2025-02-03 11:44:47,405 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2025-02-03 11:44:49,435 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 11:44:49,589 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 11:44:49,712 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-292d0c1e628154704164869460f1d13f-gui
+2025-02-03 11:44:52,458 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.9, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2025-02-03 11:44:52,459 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2025-02-03 11:46:20,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-02-03 11:46:20,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-02-03 11:46:20,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-02-03 11:46:20,307 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-02-03 11:46:20,307 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-02-03 11:46:20,307 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-02-03 11:47:49,831 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-02-03 11:47:49,831 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-02-03 11:47:49,832 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-02-03 11:47:49,832 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-02-03 11:47:49,905 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 11:47:49,921 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 11:50:50,031 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 11:50:50,048 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 11:57:28,033 INFO o.a.j.s.FileServer: Default base='/Users/saisakethram/weather-modeling/backend'
+2025-02-03 11:57:28,035 INFO o.a.j.s.FileServer: Set new base='/Users/saisakethram/weather-modeling'
+2025-02-03 11:57:28,227 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-02-03 11:57:28,234 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-02-03 11:57:28,235 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-02-03 11:57:28,266 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-03 11:57:28,267 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 11:57:28,267 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 11:57:28,268 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-02-03 11:57:28,268 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-02-03 11:57:28,310 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 11:57:28,317 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-02-03 11:57:28,382 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Backend API Testing
+2025-02-03 11:57:28,383 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Backend API Testing.
+2025-02-03 11:57:28,383 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 11:57:28,383 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 11:57:28,390 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-1
+2025-02-03 11:57:28,397 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-03 11:57:28,398 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Frontend Page Load Testing
+2025-02-03 11:57:28,398 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Frontend Page Load Testing.
+2025-02-03 11:57:28,398 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 11:57:28,398 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 11:57:28,399 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-1
+2025-02-03 11:57:28,403 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-03 11:57:28,403 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = sais-MacBook-Air-4.local
+2025-02-03 11:57:28,404 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-03 11:57:28,412 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-02-03 11:57:28,476 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-1
+2025-02-03 11:57:28,477 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-1
+2025-02-03 11:57:28,488 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-2
+2025-02-03 11:57:28,505 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-2
+2025-02-03 11:57:28,518 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-2
+2025-02-03 11:57:28,518 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-2
+2025-02-03 11:57:28,563 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-2
+2025-02-03 11:57:28,563 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-1
+2025-02-03 11:57:28,563 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-2
+2025-02-03 11:57:28,564 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-1
+2025-02-03 11:57:28,588 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-3
+2025-02-03 11:57:28,600 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-3
+2025-02-03 11:57:28,615 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-3
+2025-02-03 11:57:28,616 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-3
+2025-02-03 11:57:28,623 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-3
+2025-02-03 11:57:28,623 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-3
+2025-02-03 11:57:28,688 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-4
+2025-02-03 11:57:28,701 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-4
+2025-02-03 11:57:28,708 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-4
+2025-02-03 11:57:28,708 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-4
+2025-02-03 11:57:28,723 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-4
+2025-02-03 11:57:28,724 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-4
+2025-02-03 11:57:28,788 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-5
+2025-02-03 11:57:28,800 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-5
+2025-02-03 11:57:28,812 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-5
+2025-02-03 11:57:28,813 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-5
+2025-02-03 11:57:28,820 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-5
+2025-02-03 11:57:28,820 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-5
+2025-02-03 11:57:28,888 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-6
+2025-02-03 11:57:28,897 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-6
+2025-02-03 11:57:28,897 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-6
+2025-02-03 11:57:28,904 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-6
+2025-02-03 11:57:28,917 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-6
+2025-02-03 11:57:28,917 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-6
+2025-02-03 11:57:28,988 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-7
+2025-02-03 11:57:28,999 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-7
+2025-02-03 11:57:29,008 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-7
+2025-02-03 11:57:29,009 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-7
+2025-02-03 11:57:29,013 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-7
+2025-02-03 11:57:29,013 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-7
+2025-02-03 11:57:29,088 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-8
+2025-02-03 11:57:29,096 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-8
+2025-02-03 11:57:29,096 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-8
+2025-02-03 11:57:29,102 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-8
+2025-02-03 11:57:29,109 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-8
+2025-02-03 11:57:29,109 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-8
+2025-02-03 11:57:29,187 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-9
+2025-02-03 11:57:29,202 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-9
+2025-02-03 11:57:29,206 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-9
+2025-02-03 11:57:29,206 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-9
+2025-02-03 11:57:29,217 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-9
+2025-02-03 11:57:29,218 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-9
+2025-02-03 11:57:29,288 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-10
+2025-02-03 11:57:29,301 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-10
+2025-02-03 11:57:29,301 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-10
+2025-02-03 11:57:29,303 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-10
+2025-02-03 11:57:29,312 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-10
+2025-02-03 11:57:29,312 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-10
+2025-02-03 11:57:29,312 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-03 11:57:29,312 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-02-03 12:02:56,828 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-03 12:02:56,831 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 12:02:56,832 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-02-03 12:02:56,896 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Backend API Testing
+2025-02-03 12:02:56,897 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Backend API Testing.
+2025-02-03 12:02:56,897 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:02:56,897 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:02:56,898 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-1
+2025-02-03 12:02:56,899 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-03 12:02:56,900 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Frontend Page Load Testing
+2025-02-03 12:02:56,900 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Frontend Page Load Testing.
+2025-02-03 12:02:56,900 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:02:56,900 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:02:56,900 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-1
+2025-02-03 12:02:56,903 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-03 12:02:56,903 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-03 12:02:56,910 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-1
+2025-02-03 12:02:56,911 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-1
+2025-02-03 12:02:56,996 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-1
+2025-02-03 12:02:56,996 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-1
+2025-02-03 12:02:57,003 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-2
+2025-02-03 12:02:57,005 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-2
+2025-02-03 12:02:57,020 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-2
+2025-02-03 12:02:57,021 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-2
+2025-02-03 12:02:57,025 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-2
+2025-02-03 12:02:57,025 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-2
+2025-02-03 12:02:57,099 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-3
+2025-02-03 12:02:57,105 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-3
+2025-02-03 12:02:57,113 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-3
+2025-02-03 12:02:57,113 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-3
+2025-02-03 12:02:57,118 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-3
+2025-02-03 12:02:57,118 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-3
+2025-02-03 12:02:57,199 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-4
+2025-02-03 12:02:57,204 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-4
+2025-02-03 12:02:57,216 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-4
+2025-02-03 12:02:57,216 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-4
+2025-02-03 12:02:57,217 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-4
+2025-02-03 12:02:57,217 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-4
+2025-02-03 12:02:57,299 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-5
+2025-02-03 12:02:57,302 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-5
+2025-02-03 12:02:57,310 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-5
+2025-02-03 12:02:57,310 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-5
+2025-02-03 12:02:57,310 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-5
+2025-02-03 12:02:57,311 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-5
+2025-02-03 12:02:57,398 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-6
+2025-02-03 12:02:57,401 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-6
+2025-02-03 12:02:57,412 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-6
+2025-02-03 12:02:57,413 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-6
+2025-02-03 12:02:57,413 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-6
+2025-02-03 12:02:57,413 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-6
+2025-02-03 12:02:57,498 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-7
+2025-02-03 12:02:57,506 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-7
+2025-02-03 12:02:57,507 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-7
+2025-02-03 12:02:57,507 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-7
+2025-02-03 12:02:57,515 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-7
+2025-02-03 12:02:57,515 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-7
+2025-02-03 12:02:57,602 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-8
+2025-02-03 12:02:57,606 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-8
+2025-02-03 12:02:57,615 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-8
+2025-02-03 12:02:57,615 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-8
+2025-02-03 12:02:57,615 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-8
+2025-02-03 12:02:57,615 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-8
+2025-02-03 12:02:57,703 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-9
+2025-02-03 12:02:57,703 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-9
+2025-02-03 12:02:57,713 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-9
+2025-02-03 12:02:57,713 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-9
+2025-02-03 12:02:57,714 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-9
+2025-02-03 12:02:57,714 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-9
+2025-02-03 12:02:57,802 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-10
+2025-02-03 12:02:57,805 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-10
+2025-02-03 12:02:57,814 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-10
+2025-02-03 12:02:57,814 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-10
+2025-02-03 12:02:57,815 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-10
+2025-02-03 12:02:57,815 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-10
+2025-02-03 12:02:57,815 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-03 12:02:57,815 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-02-03 12:07:00,458 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-03 12:07:00,460 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 12:07:00,461 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-02-03 12:07:00,541 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Backend API Testing
+2025-02-03 12:07:00,541 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Backend API Testing.
+2025-02-03 12:07:00,541 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:07:00,541 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:07:00,542 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-1
+2025-02-03 12:07:00,544 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-03 12:07:00,544 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Frontend Page Load Testing
+2025-02-03 12:07:00,545 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Frontend Page Load Testing.
+2025-02-03 12:07:00,545 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:07:00,545 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:07:00,545 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-1
+2025-02-03 12:07:00,550 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-03 12:07:00,550 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-03 12:07:00,556 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-1
+2025-02-03 12:07:00,557 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-1
+2025-02-03 12:07:00,560 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-1
+2025-02-03 12:07:00,561 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-1
+2025-02-03 12:07:00,646 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-2
+2025-02-03 12:07:00,646 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-2
+2025-02-03 12:07:00,671 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-2
+2025-02-03 12:07:00,671 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-2
+2025-02-03 12:07:00,677 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-2
+2025-02-03 12:07:00,677 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-2
+2025-02-03 12:07:00,742 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-3
+2025-02-03 12:07:00,750 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-3
+2025-02-03 12:07:00,759 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-3
+2025-02-03 12:07:00,759 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-3
+2025-02-03 12:07:00,764 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-3
+2025-02-03 12:07:00,764 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-3
+2025-02-03 12:07:00,846 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-4
+2025-02-03 12:07:00,851 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-4
+2025-02-03 12:07:00,855 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-4
+2025-02-03 12:07:00,855 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-4
+2025-02-03 12:07:00,860 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-4
+2025-02-03 12:07:00,860 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-4
+2025-02-03 12:07:00,947 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-5
+2025-02-03 12:07:00,952 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-5
+2025-02-03 12:07:00,952 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-5
+2025-02-03 12:07:00,952 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-5
+2025-02-03 12:07:00,960 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-5
+2025-02-03 12:07:00,961 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-5
+2025-02-03 12:07:01,046 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-6
+2025-02-03 12:07:01,051 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-6
+2025-02-03 12:07:01,058 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-6
+2025-02-03 12:07:01,059 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-6
+2025-02-03 12:07:01,069 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-6
+2025-02-03 12:07:01,069 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-6
+2025-02-03 12:07:01,146 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-7
+2025-02-03 12:07:01,147 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-7
+2025-02-03 12:07:01,152 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-7
+2025-02-03 12:07:01,152 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-7
+2025-02-03 12:07:01,155 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-7
+2025-02-03 12:07:01,155 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-7
+2025-02-03 12:07:01,247 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-8
+2025-02-03 12:07:01,251 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-8
+2025-02-03 12:07:01,257 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-8
+2025-02-03 12:07:01,257 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-8
+2025-02-03 12:07:01,261 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-8
+2025-02-03 12:07:01,262 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-8
+2025-02-03 12:07:01,343 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-9
+2025-02-03 12:07:01,347 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-9
+2025-02-03 12:07:01,356 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-9
+2025-02-03 12:07:01,357 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-9
+2025-02-03 12:07:01,362 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-9
+2025-02-03 12:07:01,362 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-9
+2025-02-03 12:07:01,447 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-10
+2025-02-03 12:07:01,451 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-10
+2025-02-03 12:07:01,461 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-10
+2025-02-03 12:07:01,462 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-10
+2025-02-03 12:07:01,467 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-10
+2025-02-03 12:07:01,467 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-10
+2025-02-03 12:07:01,468 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-03 12:07:01,468 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-02-03 12:08:47,093 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-03 12:08:47,096 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 12:08:47,097 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-02-03 12:08:47,150 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Backend API Testing
+2025-02-03 12:08:47,151 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Backend API Testing.
+2025-02-03 12:08:47,151 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:08:47,151 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:08:47,151 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-1
+2025-02-03 12:08:47,153 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-03 12:08:47,153 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Frontend Page Load Testing
+2025-02-03 12:08:47,153 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Frontend Page Load Testing.
+2025-02-03 12:08:47,153 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:08:47,153 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:08:47,154 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-1
+2025-02-03 12:08:47,155 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-03 12:08:47,155 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-03 12:08:47,164 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-1
+2025-02-03 12:08:47,164 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-1
+2025-02-03 12:08:47,268 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-2
+2025-02-03 12:08:47,282 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-2
+2025-02-03 12:08:47,359 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-2
+2025-02-03 12:08:47,359 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-2
+2025-02-03 12:08:47,370 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-3
+2025-02-03 12:08:47,388 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-3
+2025-02-03 12:08:47,415 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-1
+2025-02-03 12:08:47,416 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-1
+2025-02-03 12:08:47,442 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-2
+2025-02-03 12:08:47,443 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-2
+2025-02-03 12:08:47,454 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-4
+2025-02-03 12:08:47,454 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-3
+2025-02-03 12:08:47,455 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-3
+2025-02-03 12:08:47,456 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-4
+2025-02-03 12:08:47,463 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-3
+2025-02-03 12:08:47,463 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-3
+2025-02-03 12:08:47,487 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-4
+2025-02-03 12:08:47,488 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-4
+2025-02-03 12:08:47,495 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-4
+2025-02-03 12:08:47,495 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-4
+2025-02-03 12:08:47,559 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-5
+2025-02-03 12:08:47,571 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-5
+2025-02-03 12:08:47,609 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-5
+2025-02-03 12:08:47,609 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-5
+2025-02-03 12:08:47,641 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-5
+2025-02-03 12:08:47,641 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-5
+2025-02-03 12:08:47,657 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-6
+2025-02-03 12:08:47,659 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-6
+2025-02-03 12:08:47,680 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-6
+2025-02-03 12:08:47,680 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-6
+2025-02-03 12:08:47,685 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-6
+2025-02-03 12:08:47,686 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-6
+2025-02-03 12:08:47,754 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-7
+2025-02-03 12:08:47,758 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-7
+2025-02-03 12:08:47,767 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-7
+2025-02-03 12:08:47,767 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-7
+2025-02-03 12:08:47,767 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-7
+2025-02-03 12:08:47,767 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-7
+2025-02-03 12:08:47,855 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-8
+2025-02-03 12:08:47,856 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-8
+2025-02-03 12:08:47,865 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-8
+2025-02-03 12:08:47,865 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-8
+2025-02-03 12:08:47,869 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-8
+2025-02-03 12:08:47,869 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-8
+2025-02-03 12:08:47,953 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-9
+2025-02-03 12:08:47,958 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-9
+2025-02-03 12:08:47,963 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-9
+2025-02-03 12:08:47,964 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-9
+2025-02-03 12:08:47,967 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-9
+2025-02-03 12:08:47,967 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-9
+2025-02-03 12:08:48,052 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-10
+2025-02-03 12:08:48,060 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-10
+2025-02-03 12:08:48,077 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-10
+2025-02-03 12:08:48,077 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-10
+2025-02-03 12:08:48,078 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-10
+2025-02-03 12:08:48,078 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-10
+2025-02-03 12:08:48,078 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-03 12:08:48,078 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-02-03 12:08:52,630 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-03 12:08:52,630 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 12:08:52,631 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-02-03 12:08:52,673 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Backend API Testing
+2025-02-03 12:08:52,674 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Backend API Testing.
+2025-02-03 12:08:52,674 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:08:52,674 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:08:52,675 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-1
+2025-02-03 12:08:52,677 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-03 12:08:52,677 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Frontend Page Load Testing
+2025-02-03 12:08:52,677 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Frontend Page Load Testing.
+2025-02-03 12:08:52,677 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:08:52,677 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:08:52,677 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-1
+2025-02-03 12:08:52,680 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-03 12:08:52,680 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-03 12:08:52,687 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-1
+2025-02-03 12:08:52,687 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-1
+2025-02-03 12:08:52,688 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-1
+2025-02-03 12:08:52,688 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-1
+2025-02-03 12:08:52,778 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-2
+2025-02-03 12:08:52,779 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-2
+2025-02-03 12:08:52,793 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-2
+2025-02-03 12:08:52,794 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-2
+2025-02-03 12:08:52,795 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-2
+2025-02-03 12:08:52,796 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-2
+2025-02-03 12:08:52,878 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-3
+2025-02-03 12:08:52,880 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-3
+2025-02-03 12:08:52,890 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-3
+2025-02-03 12:08:52,890 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-3
+2025-02-03 12:08:52,892 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-3
+2025-02-03 12:08:52,893 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-3
+2025-02-03 12:08:52,980 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-4
+2025-02-03 12:08:52,980 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-4
+2025-02-03 12:08:52,994 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-4
+2025-02-03 12:08:52,994 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-4
+2025-02-03 12:08:52,999 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-4
+2025-02-03 12:08:52,999 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-4
+2025-02-03 12:08:53,079 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-5
+2025-02-03 12:08:53,082 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-5
+2025-02-03 12:08:53,088 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-5
+2025-02-03 12:08:53,088 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-5
+2025-02-03 12:08:53,089 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-5
+2025-02-03 12:08:53,089 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-5
+2025-02-03 12:08:53,180 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-6
+2025-02-03 12:08:53,183 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-6
+2025-02-03 12:08:53,200 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-6
+2025-02-03 12:08:53,200 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-6
+2025-02-03 12:08:53,202 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-6
+2025-02-03 12:08:53,202 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-6
+2025-02-03 12:08:53,275 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-7
+2025-02-03 12:08:53,282 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-7
+2025-02-03 12:08:53,292 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-7
+2025-02-03 12:08:53,292 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-7
+2025-02-03 12:08:53,295 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-7
+2025-02-03 12:08:53,295 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-7
+2025-02-03 12:08:53,376 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-8
+2025-02-03 12:08:53,381 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-8
+2025-02-03 12:08:53,400 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-8
+2025-02-03 12:08:53,400 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-8
+2025-02-03 12:08:53,405 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-8
+2025-02-03 12:08:53,405 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-8
+2025-02-03 12:08:53,479 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-9
+2025-02-03 12:08:53,479 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-9
+2025-02-03 12:08:53,492 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-9
+2025-02-03 12:08:53,492 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-9
+2025-02-03 12:08:53,493 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-9
+2025-02-03 12:08:53,493 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-9
+2025-02-03 12:08:53,579 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-10
+2025-02-03 12:08:53,583 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-10
+2025-02-03 12:08:53,593 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-10
+2025-02-03 12:08:53,593 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-10
+2025-02-03 12:08:53,598 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-10
+2025-02-03 12:08:53,598 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-10
+2025-02-03 12:08:53,600 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-03 12:08:53,600 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-02-03 12:13:11,288 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-03 12:13:11,292 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 12:13:11,293 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-02-03 12:13:11,341 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Backend API Testing
+2025-02-03 12:13:11,342 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Backend API Testing.
+2025-02-03 12:13:11,342 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:13:11,342 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:13:11,343 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-1
+2025-02-03 12:13:11,347 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-03 12:13:11,347 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Frontend Page Load Testing
+2025-02-03 12:13:11,347 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Frontend Page Load Testing.
+2025-02-03 12:13:11,347 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:13:11,347 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:13:11,347 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-1
+2025-02-03 12:13:11,349 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-03 12:13:11,350 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-03 12:13:11,366 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-1
+2025-02-03 12:13:11,366 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-1
+2025-02-03 12:13:11,400 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-1
+2025-02-03 12:13:11,401 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-1
+2025-02-03 12:13:11,444 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-2
+2025-02-03 12:13:11,450 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-2
+2025-02-03 12:13:11,457 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-2
+2025-02-03 12:13:11,457 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-2
+2025-02-03 12:13:11,460 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-2
+2025-02-03 12:13:11,461 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-2
+2025-02-03 12:13:11,546 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-3
+2025-02-03 12:13:11,553 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-3
+2025-02-03 12:13:11,558 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-3
+2025-02-03 12:13:11,558 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-3
+2025-02-03 12:13:11,564 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-3
+2025-02-03 12:13:11,565 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-3
+2025-02-03 12:13:11,650 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-4
+2025-02-03 12:13:11,651 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-4
+2025-02-03 12:13:11,661 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-4
+2025-02-03 12:13:11,661 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-4
+2025-02-03 12:13:11,665 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-4
+2025-02-03 12:13:11,666 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-4
+2025-02-03 12:13:11,744 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-5
+2025-02-03 12:13:11,751 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-5
+2025-02-03 12:13:11,751 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-5
+2025-02-03 12:13:11,752 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-5
+2025-02-03 12:13:11,763 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-5
+2025-02-03 12:13:11,763 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-5
+2025-02-03 12:13:11,847 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-6
+2025-02-03 12:13:11,853 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-6
+2025-02-03 12:13:11,854 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-6
+2025-02-03 12:13:11,854 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-6
+2025-02-03 12:13:11,858 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-6
+2025-02-03 12:13:11,858 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-6
+2025-02-03 12:13:11,944 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-7
+2025-02-03 12:13:11,952 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-7
+2025-02-03 12:13:11,952 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-7
+2025-02-03 12:13:11,953 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-7
+2025-02-03 12:13:11,964 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-7
+2025-02-03 12:13:11,964 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-7
+2025-02-03 12:13:12,044 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-8
+2025-02-03 12:13:12,052 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-8
+2025-02-03 12:13:12,052 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-8
+2025-02-03 12:13:12,052 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-8
+2025-02-03 12:13:12,057 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-8
+2025-02-03 12:13:12,057 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-8
+2025-02-03 12:13:12,148 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-9
+2025-02-03 12:13:12,152 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-9
+2025-02-03 12:13:12,156 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-9
+2025-02-03 12:13:12,156 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-9
+2025-02-03 12:13:12,160 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-9
+2025-02-03 12:13:12,160 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-9
+2025-02-03 12:13:12,245 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-10
+2025-02-03 12:13:12,252 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-10
+2025-02-03 12:13:12,252 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-10
+2025-02-03 12:13:12,253 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-10
+2025-02-03 12:13:12,260 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-10
+2025-02-03 12:13:12,260 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-10
+2025-02-03 12:13:12,260 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-03 12:13:12,260 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-02-03 12:22:44,291 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-03 12:22:44,292 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 12:22:44,293 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-02-03 12:22:44,358 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Backend API Testing
+2025-02-03 12:22:44,359 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Backend API Testing.
+2025-02-03 12:22:44,359 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:22:44,359 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:22:44,361 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-1
+2025-02-03 12:22:44,364 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-03 12:22:44,364 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Frontend Page Load Testing
+2025-02-03 12:22:44,364 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Frontend Page Load Testing.
+2025-02-03 12:22:44,364 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 12:22:44,364 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 12:22:44,365 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-1
+2025-02-03 12:22:44,367 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-03 12:22:44,367 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-03 12:22:44,375 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-1
+2025-02-03 12:22:44,376 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-1
+2025-02-03 12:22:44,387 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-1
+2025-02-03 12:22:44,387 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-1
+2025-02-03 12:22:44,464 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-2
+2025-02-03 12:22:44,469 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-2
+2025-02-03 12:22:44,471 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-2
+2025-02-03 12:22:44,471 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-2
+2025-02-03 12:22:44,475 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-2
+2025-02-03 12:22:44,475 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-2
+2025-02-03 12:22:44,564 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-3
+2025-02-03 12:22:44,569 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-3
+2025-02-03 12:22:44,576 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-3
+2025-02-03 12:22:44,576 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-3
+2025-02-03 12:22:44,593 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-3
+2025-02-03 12:22:44,593 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-3
+2025-02-03 12:22:44,663 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-4
+2025-02-03 12:22:44,672 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-4
+2025-02-03 12:22:44,711 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-4
+2025-02-03 12:22:44,711 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-4
+2025-02-03 12:22:44,752 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-4
+2025-02-03 12:22:44,753 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-4
+2025-02-03 12:22:44,761 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-5
+2025-02-03 12:22:44,770 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-5
+2025-02-03 12:22:44,781 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-5
+2025-02-03 12:22:44,781 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-5
+2025-02-03 12:22:44,789 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-5
+2025-02-03 12:22:44,789 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-5
+2025-02-03 12:22:44,860 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-6
+2025-02-03 12:22:44,867 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-6
+2025-02-03 12:22:44,867 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-6
+2025-02-03 12:22:44,869 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-6
+2025-02-03 12:22:44,875 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-6
+2025-02-03 12:22:44,875 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-6
+2025-02-03 12:22:44,961 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-7
+2025-02-03 12:22:44,967 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-7
+2025-02-03 12:22:44,967 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-7
+2025-02-03 12:22:44,969 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-7
+2025-02-03 12:22:44,975 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-7
+2025-02-03 12:22:44,976 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-7
+2025-02-03 12:22:45,061 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-8
+2025-02-03 12:22:45,067 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-8
+2025-02-03 12:22:45,067 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-8
+2025-02-03 12:22:45,070 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-8
+2025-02-03 12:22:45,075 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-8
+2025-02-03 12:22:45,075 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-8
+2025-02-03 12:22:45,160 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-9
+2025-02-03 12:22:45,166 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-9
+2025-02-03 12:22:45,166 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-9
+2025-02-03 12:22:45,170 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-9
+2025-02-03 12:22:45,176 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-9
+2025-02-03 12:22:45,176 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-9
+2025-02-03 12:22:45,265 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-10
+2025-02-03 12:22:45,265 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-10
+2025-02-03 12:22:45,271 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-10
+2025-02-03 12:22:45,271 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-10
+2025-02-03 12:22:45,272 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-10
+2025-02-03 12:22:45,272 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-10
+2025-02-03 12:22:45,272 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-03 12:22:45,272 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-02-03 14:32:49,752 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 14:32:49,772 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-02-03 14:32:54,452 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-02-03 14:32:54,452 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-02-03 14:32:54,453 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-02-03 14:32:54,522 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Backend API Testing
+2025-02-03 14:32:54,522 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Backend API Testing.
+2025-02-03 14:32:54,522 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 14:32:54,522 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 14:32:54,523 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-1
+2025-02-03 14:32:54,527 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-02-03 14:32:54,527 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Frontend Page Load Testing
+2025-02-03 14:32:54,527 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Frontend Page Load Testing.
+2025-02-03 14:32:54,527 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-02-03 14:32:54,527 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 delayedStart=false
+2025-02-03 14:32:54,527 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-1
+2025-02-03 14:32:54,531 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-02-03 14:32:54,532 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-02-03 14:32:54,547 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-1
+2025-02-03 14:32:54,547 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-1
+2025-02-03 14:32:54,550 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-1
+2025-02-03 14:32:54,550 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-1
+2025-02-03 14:32:54,627 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-2
+2025-02-03 14:32:54,633 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-2
+2025-02-03 14:32:54,633 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-2
+2025-02-03 14:32:54,633 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-2
+2025-02-03 14:32:54,639 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-2
+2025-02-03 14:32:54,640 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-2
+2025-02-03 14:32:54,728 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-3
+2025-02-03 14:32:54,728 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-3
+2025-02-03 14:32:54,734 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-3
+2025-02-03 14:32:54,734 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-3
+2025-02-03 14:32:54,734 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-3
+2025-02-03 14:32:54,734 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-3
+2025-02-03 14:32:54,827 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-4
+2025-02-03 14:32:54,833 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-4
+2025-02-03 14:32:54,833 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-4
+2025-02-03 14:32:54,833 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-4
+2025-02-03 14:32:54,838 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-4
+2025-02-03 14:32:54,838 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-4
+2025-02-03 14:32:54,929 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-5
+2025-02-03 14:32:54,929 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-5
+2025-02-03 14:32:54,937 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-5
+2025-02-03 14:32:54,937 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-5
+2025-02-03 14:32:54,938 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-5
+2025-02-03 14:32:54,938 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-5
+2025-02-03 14:32:55,026 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-6
+2025-02-03 14:32:55,032 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-6
+2025-02-03 14:32:55,032 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-6
+2025-02-03 14:32:55,033 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-6
+2025-02-03 14:32:55,038 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-6
+2025-02-03 14:32:55,038 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-6
+2025-02-03 14:32:55,128 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-7
+2025-02-03 14:32:55,131 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-7
+2025-02-03 14:32:55,136 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-7
+2025-02-03 14:32:55,136 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-7
+2025-02-03 14:32:55,137 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-7
+2025-02-03 14:32:55,137 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-7
+2025-02-03 14:32:55,228 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-8
+2025-02-03 14:32:55,233 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-8
+2025-02-03 14:32:55,236 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-8
+2025-02-03 14:32:55,236 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-8
+2025-02-03 14:32:55,240 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-8
+2025-02-03 14:32:55,240 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-8
+2025-02-03 14:32:55,328 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-9
+2025-02-03 14:32:55,332 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-9
+2025-02-03 14:32:55,334 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-9
+2025-02-03 14:32:55,334 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-9
+2025-02-03 14:32:55,339 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-9
+2025-02-03 14:32:55,339 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-9
+2025-02-03 14:32:55,427 INFO o.a.j.t.JMeterThread: Thread started: Backend API Testing 1-10
+2025-02-03 14:32:55,432 INFO o.a.j.t.JMeterThread: Thread is done: Backend API Testing 1-10
+2025-02-03 14:32:55,433 INFO o.a.j.t.JMeterThread: Thread finished: Backend API Testing 1-10
+2025-02-03 14:32:55,433 INFO o.a.j.t.JMeterThread: Thread started: Frontend Page Load Testing 2-10
+2025-02-03 14:32:55,437 INFO o.a.j.t.JMeterThread: Thread is done: Frontend Page Load Testing 2-10
+2025-02-03 14:32:55,437 INFO o.a.j.t.JMeterThread: Thread finished: Frontend Page Load Testing 2-10
+2025-02-03 14:32:55,437 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-02-03 14:32:55,437 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
